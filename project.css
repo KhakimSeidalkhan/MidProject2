@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url(https://shymbulak.com/wp-content/uploads/2020/10/-%D0%BD%D0%B0-Shymbulak-e1617552399702.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(255,255,255);
+}
+
+.header header{
+    margin: auto;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+.header a{
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.header div:hover{
+    color:rgb(172, 160, 0);
+    cursor: pointer;
+
+}
+.fa{
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    color: rgb(253, 253, 253);
+
+}
+.fa:hover{
+    color:rgb(224, 192, 7)
+
+}
+.social{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    padding: 10px auto;
+}
+
+.text{
+    margin: 0px auto;
+    padding-top: 100px;
+    color:rgb(240,240,240);
+    text-align: center;
+    font-size: 25px;
+}
+
+.text h1{
+    font-size: 100px;
+    color:rgb(255,255,255);
+}
+
+.sharyn{
+    color:seashell;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+.sharyn img{
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 50% ;
+}
+
+.shymbulak{
+    text-align: center;
+    margin-top: 50px;
+    color: seashell;
+    font-size: 30px;
+}
+
+.row1{
+  background-color: rgba(255,0,0,0.8);
+}
+.row2{
+  background-color: hsl(140,100%,80%);
+}
+.row3{
+  background-color: hsla(230,70%,30%,0.6);
+}
+.row11{
+    background-color: #908070;
+  }
+  .row22{
+    background-color: rgb(100,255,90);
+  }
+  .row33{
+    background-color: hsl(60,10%,60%);
+  }
+
+.my-flex-container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.kolsai{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pogoda{
+    margin-top: 200px;
+    text-align: center;
+    color: seashell;
+}
+.price{
+    
+    text-align: center;
+    color: seashell;
+}
+.my-flex-block{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width: 800px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .header div{
+        margin: 10px auto;
+        border-bottom: 2px rgb(134, 127, 127) solid;
+    }
+    .skills img{
+        width: 100vh;
+    }
+} */
